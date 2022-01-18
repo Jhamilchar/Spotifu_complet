@@ -1,0 +1,41 @@
+.menu-item {
+
+}
+
+.menu-item a {
+    display: flex;
+    font: var(--button);
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 1.5rem;
+    box-shadow: none;
+    line-height: 2.5rem;
+    block-size: 2.5rem;
+    align-items: center;
+    gap: .5rem;
+}
+
+.menu-item a:hover {
+    text-decoration: none;
+    box-shadow: inset 4px 0 0 var(--primary);
+}
+
+.menu-item [class^="icon-"] {
+    font-size: 1.5rem;
+}
+
+/* .menu-item.is-active a {
+    color: var(--white);
+    box-shadow: inset 4px 0 0 var(--primary);
+} */
+
+.menu-item.is-active .icon-home::before {
+    content: "\e90d";
+}
+
+.menu-item.is-active .icon-search::before {
+    content: "\e903";
+}
+
+.menu-item.is-active .icon-creditCard::before {
+    content: "\e911";
+}

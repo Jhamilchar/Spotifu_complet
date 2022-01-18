@@ -1,0 +1,32 @@
+.button-icon {
+    inline-size: 2.5rem;
+    block-size: 2.5rem;
+    background: transparent;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    color: var(--gray10);
+}
+.button-icon.is-white {
+     background: var(--white);
+     color: var(--gray50);
+ }
+ 
+.button-icon.is-primary {
+    background: var(--primary);
+    color: var(--white);
+}
+
+.button-icon .icon-play {
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+
+.button-icon:active {
+    transform: scale(.95);
+}
+
+.button-icon:hover:is([class*="is-"]) {
+    box-shadow: 0 8px 8px rgb(0, 0, 0, .3);
+} 
