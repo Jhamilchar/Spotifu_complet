@@ -11,9 +11,13 @@
      background: var(--white);
      color: var(--gray50);
  }
+
+ .button-icon.is-white:hover {
+
+ }
  
 .button-icon.is-primary {
-    background: var(--primary);
+    background: var(--primary); 
     color: var(--white);
 }
 
