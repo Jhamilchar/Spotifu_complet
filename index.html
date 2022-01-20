@@ -8,45 +8,7 @@
     <title>Spotifu</title>
 </head>
 <body class="body">
-
-    <div class="player-controls">
-        <div class="player-controls-button" aria-label="Controles de reproduccion">
-            <button class="button-icon" aria-label="Anterior" aria-label="Anterior">
-                <i class="icon-prev" aria-hidden="true"></i>
-            </button>
-            <button class="button-icon is-white" aria-label="Reproducir" aria-label="Reproducir">
-                <i class="icon-play" aria-hidden="true"></i>
-            </button>
-            <button class="button-icon" aria-label="Siguiente" aria-label="Siguiente">
-                <i class="icon-next" aria-hidden="true"></i>
-            </button>
-        </div>
-        <div class="player-playback">
-            <span class="player-playback_progress-time">01:40</span>
-            <div class="player-playback_slider">
-                <div class="slider">
-                    <div class="slider-progress">
-                        <button class="slider-button" aria-label="Controlar el progreso de la reproduccion"></button>
-                    </div>
-                </div>
-            </div>
-            <span class="player-playback_progress-time">01:40</span>
-        </div>
-    </div>
-
-    <div class="player-volume">
-        <button class="player-control" aria-label="Silenciar" aria-describedat="volume-icon">
-            <i class="icon-volumeUp" id="volume-icon" role="presentation" aria-label="Volume alto"></i>
-        </button>
-        <div class="player-volume_slider">
-            <div class="slider">
-                <div class="slider-progress">
-                    <button class="slider-button" aria-label="Controlar el progreso de la reproduccion"></button>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    
     <div class="sidebar">
         <header class="logo">
             <a href="/" aria-current="page">
@@ -148,6 +110,72 @@
         </nav>
     </div>
 
+    <div class="player">
+        <div class="player-now_playing">
+            <div class="now-playing">
+                <div class="now-playing_cover">
+                    <img src="./images/MiniCover.png" width="56" height="56" alt="Portada Grand Scape (feat. Tokio Miura) de este artista" title="Portada Grand Scape (feat. Tokio Miura)">
+                </div>
+                <div class="now-playing_details">
+                    <div class="now-playing_description">
+                        <a href="#song" class="now-playing_title">
+                            Grand Scape (feat. Tokio Miura)
+                        </a>
+                        <a href="#RADWIMPS" class="now-playing_artist">
+                            RADWIMPS, Tokio Miura
+                        </a>
+                    </div>
+                    <div class="now-playing_actions">
+                        <button class="player-control" role="switch" aria-label="Guardar en tu biblioteca">
+                            <i class="icon-heart" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="player-player_controls">
+            <div class="player-controls">
+                <div class="player-controls-button" aria-label="Controles de reproduccion">
+                    <button class="button-icon" aria-label="Anterior" aria-label="Anterior">
+                        <i class="icon-prev" aria-hidden="true"></i>
+                    </button>
+                    <button class="button-icon is-white" aria-label="Reproducir" aria-label="Reproducir">
+                        <i class="icon-play" aria-hidden="true"></i>
+                    </button>
+                    <button class="button-icon" aria-label="Siguiente" aria-label="Siguiente">
+                        <i class="icon-next" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="player-playback">
+                    <span class="player-playback_progress-time">01:40</span>
+                    <div class="player-playback_slider">
+                        <div class="slider">
+                            <div class="slider-progress">
+                                <button class="slider-button" aria-label="Controlar el progreso de la reproduccion"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="player-playback_progress-time">03:30</span>
+                </div>
+            </div>
+        </div>
     
+        <div class="player-player_volume">
+            <div class="player-volume">
+                <button class="player-control" aria-label="Silenciar" aria-describedat="volume-icon">
+                    <i class="icon-volumeUp" id="volume-icon" role="presentation" aria-label="Volume alto"></i>
+                </button>
+                <div class="player-volume_slider">
+                    <div class="slider">
+                        <div class="slider-progress">
+                            <button class="slider-button" aria-label="Controlar el progreso de la reproduccion"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 </html>
