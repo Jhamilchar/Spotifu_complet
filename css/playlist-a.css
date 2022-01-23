@@ -1,0 +1,40 @@
+.playlist-a {
+    inline-size: 13em;
+    padding: 1rem;
+    border-radius: .25rem;
+    background: var(--gray40);
+    box-sizing: border-box;
+}
+
+.playlist-a_cover img {
+    vertical-align: middle;
+}
+
+.playlist-a:hover .playlist-a_cover button {
+    display: block;
+}
+
+.playlist-a_cover {
+    position: relative;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    margin-block-end: 1rem;
+}
+
+.playlist-a button {
+    position: absolute;
+    right: .5rem;
+    bottom: .5rem;
+    display: none;
+}
+
+.playlist-title {
+    font: var(--baseFontBold);
+    color: var(--white);
+    margin: 0;
+}
+
+.playlist-description {
+    font: var(--baseFontBold);
+    margin: 0;
+}
