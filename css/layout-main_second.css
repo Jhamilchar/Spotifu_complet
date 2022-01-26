@@ -1,0 +1,7 @@
+.layout-main_second {
+    background-image: url("../images/back-black.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}

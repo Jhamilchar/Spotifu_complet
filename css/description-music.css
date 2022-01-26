@@ -1,0 +1,42 @@
+.description-music {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-inline-size: 23rem;
+    block-size: 11rem;
+    margin-block-start: 4.6rem;
+    gap: 1rem;
+}
+
+.title-music h2 {
+    font: var(--headline1);
+    color: var(--white);
+    text-align: center;
+    margin: 0;
+}
+
+.description > * {
+    font: var(--basefontFamily);
+    color: var(--white);
+    text-align: center;
+    margin: .1rem;
+}
+
+.button-for_two {
+    background: var(--primary);
+    color: var(--white);
+    font: var(--button);
+    border: none;
+    border-radius: 5rem;
+    padding-block-start: .9rem;
+    padding-block-end: .9rem;
+    padding-inline-start: 3rem;
+    padding-inline-end: 3rem;
+    cursor: pointer;
+}
+
+.button-for_two:hover {
+    background: var(--white);
+    color: var(--primary);
+    transition: .4s;
+}

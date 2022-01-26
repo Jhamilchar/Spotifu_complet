@@ -16,6 +16,13 @@
     gap: 2em;
 }
 
+.page-block_second {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
 .page .header {
     margin-block-end: 1rem;
     margin-inline-end: -2rem;

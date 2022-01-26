@@ -24,6 +24,12 @@
     min-block-size: var(--minBlockSize);
 }
 
+.layout-main_second {
+    block-size: calc(100vh - var(--bottomSize));
+    overflow-x: hidden;
+    min-block-size: var(--minBlockSize);
+}
+
 .layout-bottom {
     flex: 1;
     block-size: var(--bottomSize);
