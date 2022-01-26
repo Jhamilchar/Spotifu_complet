@@ -1,0 +1,26 @@
+.search {
+    position: relative;
+}
+
+.search i{
+    position: absolute;
+    font-size: 1rem;
+    left: .5rem;
+    top: calc(50% - .5rem);
+    height: 1rem;
+}
+
+.search input {
+    font: var(--baseFont);
+    border-radius: 1.25rem;
+    border: none;
+    max-inline-size: 22rem;
+    width: 100%;
+    padding: .5rem;
+    padding-inline-start: 2rem;
+    color: var(--gray30);
+}
+
+.search:-ms-input-placeholder {
+    color: red;
+}
