@@ -1,5 +1,6 @@
 .search {
     position: relative;
+    flex: 1;
 }
 
 .search i{
@@ -21,6 +22,10 @@
     color: var(--gray30);
 }
 
-.search:-ms-input-placeholder {
-    color: red;
+.search:focus-within i {
+    color: var(--gray30);
+}
+
+.search input::-webkit-input-placeholder {
+    color: var(--gray10);
 }

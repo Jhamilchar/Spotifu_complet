@@ -8,17 +8,37 @@
     <title>Spotifu</title>
 </head>
 <body class="body">
-    <form class="search" role="navigation" aria-label="Buscar por Artistas, Canciones o Podcast">
-        <i class="icon-search" aria-hidden="true"></i>
-        <input class="" type="search" placeholder="Buscar por Artistas, Canciones o Podcasts" name="" id="">
-    </form>
-
-
+    <div class="sticky">
+        <header class="header" aria-label="Barra superior y menu del usuario">
+            <div class="navigation">
+                <button class="navigation-prev" aria-label="Volver" title="Volver">
+                    <i class="icon-arrowLeft" aria-hidden="true"></i>
+                </button>
+                <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+                    <i class="icon-arrowRight" aria-hidden="true"></i>
+                </button>
+            </div>
+        
+            <form class="search" role="navigation" aria-label="Buscar por Artistas, Canciones o Podcast">
+                <i class="icon-search" aria-hidden="true"></i>
+                <input class="" type="search" placeholder="Buscar por Artistas, Canciones o Podcasts" name="" id="">
+            </form>
+        </header>
+    </div>
     <section class="playlist-list" aria-labelledby="region1">
         <div class="playlist-list_top">
             <h2 class="playlist-title" id="region1">
                 Buenas noches
             </h2>
+
+            <div class="navigation">
+                <button class="navigation-prev" aria-label="Volver" title="Volver">
+                    <i class="icon-arrowLeft" aria-hidden="true"></i>
+                </button>
+                <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+                    <i class="icon-arrowRight" aria-hidden="true"></i>
+                </button>
+            </div>
         </div>
         <div class="playlist-list_container">
             <div class="playlist-b">
@@ -140,12 +160,20 @@
             </div>
         </div>
     </section>
-
     <section class="playlist-list" aria-labelledby="region2">
         <div class="playlist-list_top">
             <h2 class="playlist-title" id="region2">
                 Escuchado recientemente
             </h2>
+
+            <div class="navigation">
+                <button class="navigation-prev" aria-label="Volver" title="Volver">
+                    <i class="icon-arrowLeft" aria-hidden="true"></i>
+                </button>
+                <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+                    <i class="icon-arrowRight" aria-hidden="true"></i>
+                </button>
+            </div>
         </div>
         <div class="playlist-list_container">
             <div class="playlist-a">
