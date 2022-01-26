@@ -20,7 +20,7 @@
 
 .layout-main {
     block-size: calc(100vh - var(--bottomSize));
-    overflow: auto;
+    overflow-x: hidden;
     min-block-size: var(--minBlockSize);
 }
 
