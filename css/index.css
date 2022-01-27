@@ -25,6 +25,7 @@
     --basefontFamily: Avenir, Helvetica, sans-serif;
     --headline1: bold 2rem/normal var(--basefontFamily);
     --headline2: bold 1.5rem/1.75rem var(--basefontFamily);
+    --subtitle: normal 0.80rem/1rem var(--basefontFamily);
     --baseFont: normal .875rem/1.375rem var(--basefontFamily);
     --baseFontBold: bold .875rem/1.375rem var(--basefontFamily);
     --button: bold .875rem/1rem var(--basefontFamily);

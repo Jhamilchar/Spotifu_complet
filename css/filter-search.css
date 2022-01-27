@@ -1,0 +1,34 @@
+.filter-search {
+    position: relative;
+    flex: 1;
+}
+
+.filter-search i{
+    position: absolute;
+    font-size: 1rem;
+    left: .5rem;
+    top: calc(50% - .5rem);
+    height: 1rem;
+}
+
+.filter-search input {
+    font: var(--button);
+    border-radius: 0.3rem;
+    border: none;
+    max-inline-size: 20rem;
+    width: 100%;
+    padding: .5rem;
+    padding-inline-start: 2rem;
+    background: none;
+    color: var(--white);
+}
+
+.filter-search:focus-within input {
+    color: var(--white);
+    background: var(--gray20);
+    transition: .3s;
+}
+
+.filter-search input::-webkit-input-placeholder {
+    color: var(--gray10);
+} 

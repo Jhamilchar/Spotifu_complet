@@ -1,0 +1,24 @@
+.elements-description {
+    display: flex;
+    margin-block-start: 1.7rem;
+}
+
+.content-elements {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    inline-size: 75%;
+    gap: 2rem;
+}
+
+.content-elements > * {
+    font: var(--subtitle);
+    color: var(--gray10);
+}
+
+.icon-list_elements {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    align-items: center;
+}
