@@ -1,0 +1,29 @@
+.description-music_top {
+    display: flex;
+    align-items: top;
+}
+
+.content-image_third {
+    margin-inline-start: 1.37rem;
+    margin-inline-end: 1.5rem;
+}
+
+.anime-album_third {
+    color: var(--white);
+}
+
+.content-decription_right {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+.button-for_two {
+    margin-top: .4rem;
+}
+
+.exit,
+.followers_third {
+    margin: 0;
+    color: var(--white);
+}

@@ -30,6 +30,13 @@
     min-block-size: var(--minBlockSize);
 }
 
+.layout-main_third {
+    block-size: calc(100vh - var(--bottomSize));
+    flex: 1;
+    overflow-x: hidden;
+    min-block-size: var(--minBlockSize);
+}
+
 .layout-bottom {
     flex: 1;
     block-size: var(--bottomSize);
