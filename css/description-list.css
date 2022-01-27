@@ -9,6 +9,7 @@
     justify-content: space-around;
     inline-size: 75%;
     gap: 2rem;
+    margin-block-end: .2rem;
 }
 
 .content-elements > * {
@@ -21,4 +22,5 @@
     justify-content: space-evenly;
     flex: 1;
     align-items: center;
+    margin-block-end: .2rem;
 }

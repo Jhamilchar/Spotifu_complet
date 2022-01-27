@@ -9,6 +9,22 @@
     gap: 1.2rem;
 }
 
+.name-music,
+.artist-music,
+.artist-album,
+.contet-icon_description > * {
+    color: var(--white);
+}
+
+.name-music i {
+    cursor: pointer;
+}
+
+.name-music .icon-heart:hover {
+    color: var(--primary);
+    transition: .2s;
+}
+
 .content-information {
     inline-size: 82.3%;
     display: flex;
